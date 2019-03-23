@@ -4,3 +4,5 @@ Thread: is an instance of a sequential computer program that is being executed.
         - Threads are the basic unit for scheduling in modern OS
         - A process contains at least one thead
         - A process may contain multiple threads for parallel execution.
+
+https://computing.llnl.gov/tutorials/pthreads/
