@@ -9,6 +9,7 @@ https://computing.llnl.gov/tutorials/pthreads/
 
 set cpu affinity
 https://girishjoshi.io/post/glibc-pthread-cpu-affinity-linux/
+https://stackoverflow.com/questions/1407786/how-to-set-cpu-affinity-of-a-particular-pthread
 https://stackoverflow.com/questions/10490756/how-to-use-sched-getaffinity-and-sched-setaffinity-in-linux-from-c
 https://computing.llnl.gov/tutorials/pthreads/man/pthread_setaffinity_np.txt
 Please note that you can use CPU_SET(core_id, &cpuset); multiple times, with different values for the variable core_id. This way you instruct the OS that it can move your thread to any of those available cores for execution and not limit it to just one.
